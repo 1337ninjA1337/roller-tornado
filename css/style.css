@@ -1,0 +1,249 @@
+@font-face {
+    font-family: GothamPro; 
+    src: url(../fonts/GothamPro.ttf); 
+}
+body{
+    font-family: GothamPro;
+    min-width: 480px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center ;
+    
+    min-height: 580px;
+    width: 100%;
+    height: 70vh;
+    background: url(../imges/7d27675a639a3f73fc576287920e88d0.png) no-repeat;
+    background-size: cover;
+}
+header p:nth-child(1){
+    text-transform: uppercase;
+    margin-top: 34px;
+    color: #48509A;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+header p:nth-child(2){
+    width: 70%;
+    font-weight: normal;
+    font-size: 1.5em;
+    margin-top: 5px;
+    text-align: center;
+    color: #000000;
+}
+header p:nth-child(3){
+    font-weight: bold;
+    font-size: 3em;
+    margin-top: 13px;
+    margin-right: 1em;
+    align-self: flex-end;
+    color: #FAFF00;
+}
+.untilTheEndOfPromotion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 100%;
+    height: 20vh;
+    background: #ffffff;
+}
+.untilTheEndOfPromotion p:nth-child(1){
+    font-weight: bold;
+    font-size: 1.7em;
+    margin-top: 2%;
+}
+.clock{
+    
+    width: 70%;
+    height: 40%;
+    margin-top: 0.4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 3em;
+}
+.clock div{
+    width: 10%;
+    background: #C4C4C4;;
+}
+.clock div:nth-child(3n){
+    background: inherit;
+}
+.clockSignature{
+    
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    font-size: 1.5em;
+}
+.advantages{
+    
+    width: 100%;
+    height: 20vh;
+    background: #4A519A;
+    display: flex;
+    flex-direction: column;
+}
+.advantagesImges{
+    min-width: 77px;
+    min-height: 77px;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.advantagesImges div{
+    width: 20%;
+    min-height: 77px;
+    height: 70%;
+    background: #FFFFFF;
+    border-radius: 50%;
+    text-align: center;
+}
+.advantagesImges div img{
+    width: 50%;
+    margin-top: 10%;
+}
+.advantagesSignature{
+    
+    font-family: inherit;
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    text-align: center;
+}
+.advantagesSignature div{
+    min-width: 140px;
+    margin-left: 0.5em;
+}
+.advantagesSignature div:nth-child(2){
+    margin-left: 1.3em;
+}
+.cost{
+    
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+.normalCost{
+    width: 50%;
+    background: #E0DDDD;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3em;
+}
+.normalCost div:nth-child(1){
+    margin-top: 1em;
+    margin-left: 1em;
+}
+.normalCost div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+    margin-left: 3em;
+}
+.normalCost div p:nth-child(1){
+    font-weight: bold;
+}
+.normalCost div p:nth-child(2){
+    font-size: 0.6em;
+    align-self: flex-end;
+}
+.normalCost div p:nth-child(3){
+    font-size: 0.7em;
+    align-self: flex-start;
+}
+.normalCost div p:nth-child(4){
+    font-size: 0.6em;
+    align-self: baseline;
+}
+.discount{
+    min-width: 95px;
+    min-height: 95px;
+    margin-top: -0.5em;
+    margin-left: 50%;
+    width: 30%;
+    background: red;
+    position: absolute;
+    border-radius: 10%;
+    height: 6em;
+    
+}
+.discount p{
+    
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    margin-top: 10%;
+    color: #FFFFFF;
+    font-size: 1.5em;
+}
+.discount p:nth-child(2){
+    font-size: 2em;
+}
+.newCost{
+    font-weight: normal;
+    font-size: 1.3em;
+    width: 50%;
+    background: #FFE600;
+    display: flex;
+    flex-direction: column;
+}
+.newCost div:nth-child(1){
+    margin-top: 1em;
+    margin-left: 4em;
+    
+}
+.newCost div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+    margin-left: 5em;
+    font-family: Circe;
+}
+.newCost div p:nth-child(1){
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.newCost div p:nth-child(2){
+    font-size: 0.8em;
+    align-self: flex-end;
+}
+.newCost div p:nth-child(3){
+    font-size: 0.9em;
+    align-self: flex-start;
+}
+.newCost div p:nth-child(4){
+    font-size: 0.8em;
+    align-self: baseline;
+}
+.order{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+.ordeButton{
+    text-align: center;
+    width: 100%;
+    min-height: 76px;
+    height: 10vh;
+    background: linear-gradient(183.07deg, #8793FF 28.77%, #474F9A 97.45%);
+    box-shadow: 0px 22px 44px -12px rgba(37, 70, 144, 0.35);
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.ordeButton p{
+    margin-top: 5%;
+}
